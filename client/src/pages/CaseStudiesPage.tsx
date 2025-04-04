@@ -2,6 +2,7 @@ import PageTransition from "@/lib/pageTransition";
 import { caseStudies } from "@/data/caseStudies";
 import CaseStudyCard from "@/components/casestudies/CaseStudyCard";
 import CTASection from "@/components/common/CTASection";
+import ContactFormSection from "@/components/common/ContactFormSection";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
@@ -142,6 +143,9 @@ const CaseStudiesPage = () => {
         primaryButtonText="Contact Us Today"
         primaryButtonLink="/contact"
       />
+      
+      {/* Contact Form Section */}
+      <ContactFormSection />
     </PageTransition>
   );
 };

@@ -2,6 +2,7 @@ import PageTransition from "@/lib/pageTransition";
 import { teamMembers } from "@/data/team";
 import TeamMember from "@/components/about/TeamMember";
 import CTASection from "@/components/common/CTASection";
+import ContactFormSection from "@/components/common/ContactFormSection";
 import { motion } from "framer-motion";
 import { Separator } from "@/components/ui/separator";
 import { CheckCircle } from "lucide-react";
@@ -264,6 +265,9 @@ const AboutPage = () => {
         secondaryButtonText="Contact Us"
         secondaryButtonLink="/contact"
       />
+      
+      {/* Contact Form Section */}
+      <ContactFormSection />
     </PageTransition>
   );
 };

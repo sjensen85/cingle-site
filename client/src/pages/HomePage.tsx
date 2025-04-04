@@ -8,6 +8,7 @@ import StatsSection from "@/components/home/StatsSection";
 import ServiceCard from "@/components/services/ServiceCard";
 import TestimonialCard from "@/components/common/TestimonialCard";
 import CTASection from "@/components/common/CTASection";
+import ContactFormSection from "@/components/common/ContactFormSection";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -183,6 +184,9 @@ const HomePage = () => {
         secondaryButtonLink="/services"
         bgColor="bg-primary-50"
       />
+      
+      {/* Contact Form Section */}
+      <ContactFormSection />
     </PageTransition>
   );
 };

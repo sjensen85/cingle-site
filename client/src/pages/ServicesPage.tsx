@@ -2,6 +2,7 @@ import PageTransition from "@/lib/pageTransition";
 import { services } from "@/data/services";
 import ServiceCard from "@/components/services/ServiceCard";
 import CTASection from "@/components/common/CTASection";
+import ContactFormSection from "@/components/common/ContactFormSection";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
@@ -172,6 +173,9 @@ const ServicesPage = () => {
         primaryButtonText="Contact Us"
         primaryButtonLink="/contact"
       />
+      
+      {/* Contact Form Section */}
+      <ContactFormSection />
     </PageTransition>
   );
 };
