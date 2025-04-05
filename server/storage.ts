@@ -1,6 +1,6 @@
 import { users, type User, type InsertUser, contactSubmissions, type ContactSubmission, type InsertContact } from "@shared/schema";
 import { db } from "./db";
-import { eq } from "drizzle-orm";
+import { eq, desc } from "drizzle-orm";
 
 // modify the interface with any CRUD methods
 // you might need
@@ -44,7 +44,7 @@ export class DatabaseStorage implements IStorage {
     const submissions = await db
       .select()
       .from(contactSubmissions)
-      .orderBy(contactSubmissions.submittedAt, 'desc');
+      .orderBy(desc(contactSubmissions.submittedAt));
     return submissions;
   }
 }

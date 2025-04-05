@@ -41,8 +41,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/">
               <a className="flex-shrink-0 flex items-center">
-                <span className="text-primary font-bold text-xl">DataAI</span>
-                <span className="text-purple-700 font-bold text-xl">Consulting</span>
+                <span className="text-primary font-bold text-xl">Cingle</span>
               </a>
             </Link>
             <nav className="hidden md:ml-6 md:flex md:space-x-8" aria-label="Main Navigation">

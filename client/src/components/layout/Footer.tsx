@@ -8,8 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-white font-bold text-xl">DataAI</span>
-              <span className="text-purple-400 font-bold text-xl">Consulting</span>
+              <span className="text-white font-bold text-xl">Cingle</span>
             </div>
             <p className="text-gray-400 mb-4">
               Transforming businesses with AI and data solutions that drive growth and innovation.
@@ -61,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} DataAI Consulting. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Cingle. All rights reserved.</p>
         </div>
       </div>
     </footer>

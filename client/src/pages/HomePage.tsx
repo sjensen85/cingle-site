@@ -58,9 +58,9 @@ const HomePage = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">About DataAI Consulting</h2>
+              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">About Cingle</h2>
               <p className="text-lg text-gray-600 mb-6">
-                DataAI Consulting is a premier AI and data analytics consulting firm dedicated to helping businesses harness the power of artificial intelligence and data-driven insights to transform their operations and achieve sustainable growth.
+                Cingle is a premier AI and data analytics consulting firm dedicated to helping businesses harness the power of artificial intelligence and data-driven insights to transform their operations and achieve sustainable growth.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Our team of expert consultants combines deep technical knowledge with business acumen to deliver tailored solutions that address your unique challenges and opportunities.
@@ -94,7 +94,7 @@ const HomePage = () => {
                 <img 
                   className="rounded-xl shadow-lg object-cover" 
                   src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" 
-                  alt="DataAI team meeting" 
+                  alt="Cingle team meeting" 
                 />
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-lg bg-purple-600 hidden lg:block"></div>
               </div>
@@ -125,7 +125,7 @@ const HomePage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">Why Choose DataAI Consulting</h2>
+            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">Why Choose Cingle</h2>
             <p className="max-w-2xl mx-auto text-xl text-gray-600">
               We deliver exceptional value through our expertise, innovation, and commitment to your success
             </p>

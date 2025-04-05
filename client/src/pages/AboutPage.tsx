@@ -27,7 +27,7 @@ const AboutPage = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Meet the team behind DataAI Consulting and learn our story
+            Meet the team behind Cingle and learn our story
           </motion.p>
         </div>
       </section>
@@ -44,7 +44,7 @@ const AboutPage = () => {
             >
               <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">Our Mission & Vision</h2>
               <p className="text-lg text-gray-600 mb-6">
-                DataAI Consulting is a premier AI and data analytics consulting firm dedicated to helping businesses harness the power of artificial intelligence and data-driven insights to transform their operations and achieve sustainable growth.
+                Cingle is a premier AI and data analytics consulting firm dedicated to helping businesses harness the power of artificial intelligence and data-driven insights to transform their operations and achieve sustainable growth.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Our mission is to democratize AI and advanced analytics, making these powerful technologies accessible and valuable to organizations of all sizes across industries.
@@ -99,7 +99,7 @@ const AboutPage = () => {
               {
                 year: "2013",
                 title: "The Beginning",
-                description: "DataAI Consulting was founded by Dr. Michael Chen and Dr. Sarah Johnson after successful careers at Google and MIT, with a vision to make AI accessible to businesses of all sizes.",
+                description: "Cingle was founded by Dr. Michael Chen and Dr. Sarah Johnson after successful careers at Google and MIT, with a vision to make AI accessible to businesses of all sizes.",
                 image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
               },
               {
@@ -116,8 +116,8 @@ const AboutPage = () => {
               },
               {
                 year: "2023",
-                title: "Global Impact",
-                description: "Today, we serve clients around the world with a team of 50+ AI and data specialists, continuing our mission to transform businesses through data-driven solutions.",
+                title: "Global Impact & Rebranding",
+                description: "We rebranded to Cingle to reflect our commitment to making AI simple and accessible. Today, we serve clients around the world with a team of 50+ AI and data specialists, continuing our mission to transform businesses through data-driven solutions.",
                 image: "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
               }
             ].map((milestone, index) => (
