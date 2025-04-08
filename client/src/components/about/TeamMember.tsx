@@ -26,9 +26,7 @@ const TeamMember = ({ member, index }: TeamMemberProps) => {
           />
         </div>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-gray-900 mb-1">
-            {name}kdlfjaskdfjasdklfj
-          </h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-1">{name}</h3>
           <p className="text-purple-600 font-medium mb-3">{title}</p>
           <p className="text-gray-600 mb-4">{bio}</p>
           <div className="flex space-x-3">
